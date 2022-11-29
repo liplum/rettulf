@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../alias.dart';
+
 extension WidgetList on List<Widget> {
   Row row(
           {Key? key,
-          MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
+          MAAlign mainAxisAlignment = MAAlign.start,
           MainAxisSize mainAxisSize = MainAxisSize.max,
-          CrossAxisAlignment center = CrossAxisAlignment.center,
+          CAAlign center = CAAlign.center,
           TextDirection? textDirection,
           VerticalDirection verticalDirection = VerticalDirection.down,
           TextBaseline? textBaseline}) =>
@@ -22,9 +24,9 @@ extension WidgetList on List<Widget> {
 
   Column column(
           {Key? key,
-          MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
+          MAAlign mainAxisAlignment = MAAlign.start,
           MainAxisSize mainAxisSize = MainAxisSize.max,
-          CrossAxisAlignment center = CrossAxisAlignment.center,
+          CAAlign center = CAAlign.center,
           TextDirection? textDirection,
           VerticalDirection verticalDirection = VerticalDirection.down,
           TextBaseline? textBaseline}) =>
@@ -42,9 +44,9 @@ extension WidgetList on List<Widget> {
   Flex flex(
           {Key? key,
           required Axis direction,
-          MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
+          MAAlign mainAxisAlignment = MAAlign.start,
           MainAxisSize mainAxisSize = MainAxisSize.max,
-          CrossAxisAlignment center = CrossAxisAlignment.center,
+          CAAlign center = CAAlign.center,
           TextDirection? textDirection,
           VerticalDirection verticalDirection = VerticalDirection.down,
           TextBaseline? textBaseline,

@@ -1,19 +1,26 @@
 import 'package:flutter/widgets.dart';
 
 extension WidgetPaddingEx on Widget {
-  Padding padding(EdgeInsetsGeometry padding, {Key? key}) => Padding(
+  Padding pad(EdgeInsetsGeometry padding, {Key? key}) => Padding(
         key: key,
         padding: padding,
         child: this,
       );
 
-  Padding paddingAll(double v, {Key? key}) => Padding(
+  Padding padAll(double v, {Key? key}) => Padding(
         key: key,
         padding: EdgeInsets.all(v),
         child: this,
       );
 
-  Padding paddingOnly(
+  Padding padSymmetric({double v = 0.0, double h = 0.0, Key? key}) =>
+      Padding(
+        key: key,
+        padding: EdgeInsets.symmetric(vertical: v, horizontal: h),
+        child: this,
+      );
+
+  Padding padOnly(
           {double l = 0.0,
           double t = 0.0,
           double r = 0.0,
@@ -25,7 +32,7 @@ extension WidgetPaddingEx on Widget {
         child: this,
       );
 
-  Padding paddingFromLTRB(double l, double t, double r, double b, {Key? key}) =>
+  Padding padFromLTRB(double l, double t, double r, double b, {Key? key}) =>
       Padding(
         key: key,
         padding: EdgeInsets.fromLTRB(l, t, r, b),
