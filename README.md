@@ -4,13 +4,22 @@
 
 ### *!esrever ni stegdiw etirW*
 
-</div>
-
 ## Getting started
 
+</div>
+
+<div align="center"> 
+
+<img src="img/showcase.png" alt="an app with reversed hello world" width="200">
+
+</div>
+
 ```dart
+import 'package:rettulf/rettulf.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) =>
           "!dlorW ,olleH"
@@ -21,12 +30,6 @@ class MyApp extends StatelessWidget {
           .materialApp(title: "Rettulf");
 }
 ```
-
-<div align="center"> 
-
-<img src="img/showcase.png" alt="an app with reversed hello world" width="200">
-
-</div>
 
 ## Additional information
 

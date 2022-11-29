@@ -13,8 +13,7 @@ extension WidgetPaddingEx on Widget {
         child: this,
       );
 
-  Padding padSymmetric({double v = 0.0, double h = 0.0, Key? key}) =>
-      Padding(
+  Padding padSymmetric({double v = 0.0, double h = 0.0, Key? key}) => Padding(
         key: key,
         padding: EdgeInsets.symmetric(vertical: v, horizontal: h),
         child: this,
