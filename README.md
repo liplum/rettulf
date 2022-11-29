@@ -22,6 +22,12 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+<div align="center"> 
+
+<img src="img/showcase.png" alt="an app with reversed hello world" width="200">
+
+</div>
+
 ## Additional information
 
 I don't want to be overwhelmed by the verbose syntax from dart, so I made this.
