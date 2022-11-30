@@ -11,6 +11,8 @@
 ```dart
 import 'package:rettulf/rettulf.dart';
 
+void main() => const MyApp().runAsApp();
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
