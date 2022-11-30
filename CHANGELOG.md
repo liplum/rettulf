@@ -1,6 +1,6 @@
 ## 0.0.2
 
-* Added wrappers of `Expanded`, `Flexible`.
+* Added wrappers of `Expanded`, `Flexible`, `Stack`, `SafeArea`, `GestureDetector`, `CupertinoButton`.
 
 ## 0.0.1
 

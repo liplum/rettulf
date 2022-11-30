@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      "!dlorW ,olleH"
+          "!dlorW ,olleH"
           .text()
           .padAll(50)
           .center()
