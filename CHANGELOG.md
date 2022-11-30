@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Added DSL for `ValueListenable`.
+
 ## 0.0.2
 
 * Added wrappers of `Expanded`, `Flexible`, `Stack`, `SafeArea`, `GestureDetector`, `CupertinoButton`, `FloatingActionButton`.
