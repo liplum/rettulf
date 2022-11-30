@@ -8,12 +8,6 @@
 
 </div>
 
-<div align="center"> 
-
-<img src="img/showcase.png" alt="an app with reversed hello world" width="200">
-
-</div>
-
 ```dart
 import 'package:rettulf/rettulf.dart';
 
@@ -22,7 +16,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-          "!dlorW ,olleH"
+      "!dlorW ,olleH"
           .text()
           .padAll(50)
           .center()
@@ -30,6 +24,12 @@ class MyApp extends StatelessWidget {
           .materialApp(title: "Rettulf");
 }
 ```
+
+<div align="center" >
+
+![an app with reversed hello world](img/showcase.png)
+
+</div>
 
 ## Additional information
 
