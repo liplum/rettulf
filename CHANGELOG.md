@@ -1,6 +1,7 @@
 ## 0.0.3
 
 * Added DSL for `ValueListenable`.
+* Added wrapper of `Hero.`
 
 ## 0.0.2
 
