@@ -2,6 +2,7 @@
 
 * Added `isPortrait` and `isLandscape` in `BuildContext`.
 * Typo: `expended` to `expanded`.
+* Added wrappers of `FittedBox`,`LimitedBox`, `OverflowBox`. `ConstrainedBox`, `UnconstrainedBox`.
 
 ## 0.0.6
 
