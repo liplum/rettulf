@@ -11,7 +11,7 @@ extension WidgetButtonEx on Widget {
     ButtonStyle? style,
     FocusNode? focusNode,
     bool autofocus = false,
-    Clip clipBehavior = Clip.none,
+    Clip clip = Clip.none,
     MaterialStatesController? statesController,
   }) =>
       TextButton(
@@ -23,7 +23,7 @@ extension WidgetButtonEx on Widget {
           style: style,
           focusNode: focusNode,
           autofocus: autofocus,
-          clipBehavior: clipBehavior,
+          clipBehavior: clip,
           statesController: statesController,
           child: this);
 
@@ -36,7 +36,7 @@ extension WidgetButtonEx on Widget {
     ButtonStyle? style,
     FocusNode? focusNode,
     bool autofocus = false,
-    Clip clipBehavior = Clip.none,
+    Clip clip = Clip.none,
     MaterialStatesController? statesController,
   }) =>
       ElevatedButton(
@@ -48,7 +48,7 @@ extension WidgetButtonEx on Widget {
           style: style,
           focusNode: focusNode,
           autofocus: autofocus,
-          clipBehavior: clipBehavior,
+          clipBehavior: clip,
           statesController: statesController,
           child: this);
 

@@ -6,14 +6,14 @@ extension StackEx on List<Widget> {
     AlignmentDirectional align = AlignmentDirectional.topStart,
     TextDirection? textDirection,
     StackFit fit = StackFit.loose,
-    Clip clipBehavior = Clip.hardEdge,
+    Clip clip = Clip.hardEdge,
   }) =>
       Stack(
         key: key,
         alignment: align,
         textDirection: textDirection,
         fit: fit,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         children: this,
       );
 }

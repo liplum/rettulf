@@ -14,7 +14,7 @@ extension ContainerWidgetEx on Widget {
     EdgeInsetsGeometry? margin,
     Matrix4? transform,
     AlignmentGeometry? transformAlign,
-    Clip clipBehavior = Clip.none,
+    Clip clip = Clip.none,
   }) =>
       Container(
         key: key,
@@ -29,7 +29,7 @@ extension ContainerWidgetEx on Widget {
         margin: margin,
         transform: transform,
         transformAlignment: transformAlign,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         child: this,
       );
 }

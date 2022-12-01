@@ -23,7 +23,7 @@ extension ListViewEx on List<Widget> {
     ScrollViewKeyboardDismissBehavior keyboardDismissBehavior =
         ScrollViewKeyboardDismissBehavior.manual,
     String? restorationId,
-    Clip clipBehavior = Clip.hardEdge,
+    Clip clip = Clip.hardEdge,
   }) =>
       ListView(
         key: key,
@@ -44,7 +44,7 @@ extension ListViewEx on List<Widget> {
         dragStartBehavior: dragStartBehavior,
         keyboardDismissBehavior: keyboardDismissBehavior,
         restorationId: restorationId,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         children: this,
       );
 }
@@ -72,7 +72,7 @@ extension IndexedWidgetBuilderListViewEx on IndexedWidgetBuilder {
     ScrollViewKeyboardDismissBehavior keyboardDismissBehavior =
         ScrollViewKeyboardDismissBehavior.manual,
     String? restorationId,
-    Clip clipBehavior = Clip.hardEdge,
+    Clip clip = Clip.hardEdge,
   }) =>
       ListView.builder(
           key: key,
@@ -95,6 +95,6 @@ extension IndexedWidgetBuilderListViewEx on IndexedWidgetBuilder {
           dragStartBehavior: dragStartBehavior,
           keyboardDismissBehavior: keyboardDismissBehavior,
           restorationId: restorationId,
-          clipBehavior: clipBehavior,
+          clipBehavior: clip,
           itemBuilder: this);
 }

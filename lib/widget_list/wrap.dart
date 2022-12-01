@@ -11,7 +11,7 @@ extension WrapWidgetEx on List<Widget> {
     WrapCrossAlignment caa = WrapCrossAlignment.start,
     TextDirection? textDirection,
     VerticalDirection verticalDirection = VerticalDirection.down,
-    Clip clipBehavior = Clip.none,
+    Clip clip = Clip.none,
   }) =>
       Wrap(
         key: key,
@@ -23,7 +23,7 @@ extension WrapWidgetEx on List<Widget> {
         crossAxisAlignment: caa,
         textDirection: textDirection,
         verticalDirection: verticalDirection,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         children: this,
       );
 }

@@ -50,7 +50,7 @@ extension FlexWidgetListEx on List<Widget> {
           TextDirection? textDirection,
           VerticalDirection vd = VerticalDirection.down,
           TextBaseline? textBaseline,
-          Clip clipBehavior = Clip.none}) =>
+          Clip clip = Clip.none}) =>
       Flex(
         key: key,
         direction: direction,
@@ -60,7 +60,7 @@ extension FlexWidgetListEx on List<Widget> {
         textDirection: textDirection,
         verticalDirection: vd,
         textBaseline: textBaseline,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         children: this,
       );
 }

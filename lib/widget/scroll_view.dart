@@ -11,7 +11,7 @@ extension SingleChildScrollViewWidgetEx on Widget {
     ScrollPhysics? physics,
     ScrollController? controller,
     DragStartBehavior dragStartBehavior = DragStartBehavior.start,
-    Clip clipBehavior = Clip.hardEdge,
+    Clip clip = Clip.hardEdge,
     String? restorationId,
     ScrollViewKeyboardDismissBehavior keyboardDismissBehavior =
         ScrollViewKeyboardDismissBehavior.manual,
@@ -25,7 +25,7 @@ extension SingleChildScrollViewWidgetEx on Widget {
         physics: physics,
         controller: controller,
         dragStartBehavior: dragStartBehavior,
-        clipBehavior: clipBehavior,
+        clipBehavior: clip,
         restorationId: restorationId,
         keyboardDismissBehavior: keyboardDismissBehavior,
         child: this,
