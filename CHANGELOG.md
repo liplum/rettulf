@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Removed an accidentally-shadowed extension getter, `BuildContext.size`, on BuildContextMediaQueryEx. 
+
 ## 0.0.5
 
 * Added wrappers of `Container`, `Card`.

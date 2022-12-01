@@ -7,8 +7,6 @@ extension BuildContextMediaQueryEx on BuildContext {
 
   Orientation get orientation => MediaQuery.of(this).orientation;
 
-  Size get size => MediaQuery.of(this).size;
-
   double get devicePixelRatio => MediaQuery.of(this).devicePixelRatio;
 
   Brightness get brightness => MediaQuery.of(this).platformBrightness;
