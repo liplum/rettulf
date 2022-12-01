@@ -9,11 +9,16 @@ export 'widget_list/stack.dart';
 
 export 'widget/button.dart';
 export 'widget/center.dart';
+export 'widget/flexible.dart';
+export 'widget/gesture.dart';
+export 'widget/hero.dart';
 export 'widget/material.dart';
 export 'widget/padding.dart';
-export 'widget/sizedbox.dart';
-export 'widget/gesture.dart';
+export 'widget/preferred_size.dart';
 export 'widget/safearea.dart';
+export 'widget/scroll_view.dart';
+export 'widget/sizedbox.dart';
+export 'widget/value_listen.dart';
 
 export 'buildcontext/general.dart';
 export 'buildcontext/show.dart';
