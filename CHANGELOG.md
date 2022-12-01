@@ -1,3 +1,8 @@
+## 0.0.5
+
+* Added wrapper of `Container`.
+* Added extension functions for `MediaQuery`.
+
 ## 0.0.4
 
 * Added wrapper of `Wrap`, `Align`.

@@ -9,7 +9,3 @@ extension BuildContextThemeEx on BuildContext {
 
   TextTheme get textTheme => Theme.of(this).textTheme;
 }
-
-extension BuildContextNavigator on BuildContext {
-  NavigatorState get navigator => Navigator.of(this);
-}

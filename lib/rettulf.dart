@@ -1,7 +1,9 @@
 library rettulf;
 
-export 'buildcontext/general.dart';
+export 'buildcontext/theme.dart';
+export 'buildcontext/media_query.dart';
 export 'buildcontext/show.dart';
+export 'buildcontext/navigation.dart';
 
 export 'widget/align.dart';
 export 'widget/button.dart';

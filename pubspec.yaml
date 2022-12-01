@@ -1,6 +1,6 @@
 name: rettulf
 description: Write widgets in reverse! Rettulf provides lots of wrappers for you build widgets with method chaining.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/liplum/rettulf
 
 environment:
