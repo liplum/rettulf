@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../alias.dart';
 
-extension FlexWidgetListEx on List<Widget> {
+extension FlexWidgetEx on Widget {
   Row row(
           {Key? key,
           MAAlign maa = MAAlign.start,
@@ -19,7 +19,7 @@ extension FlexWidgetListEx on List<Widget> {
         textDirection: textDirection,
         verticalDirection: vd,
         textBaseline: textBaseline,
-        children: this,
+        children: [this],
       );
 
   Column column(
@@ -38,7 +38,7 @@ extension FlexWidgetListEx on List<Widget> {
         textDirection: textDirection,
         verticalDirection: vd,
         textBaseline: textBaseline,
-        children: this,
+        children: [this],
       );
 
   Flex flex(
@@ -61,6 +61,6 @@ extension FlexWidgetListEx on List<Widget> {
         verticalDirection: vd,
         textBaseline: textBaseline,
         clipBehavior: clipBehavior,
-        children: this,
+        children: [this],
       );
 }
