@@ -2,6 +2,7 @@
 
 * Added DSL for `ValueListenable`.
 * Added wrappers of `Hero`, `PreferredSize`, `SingleChildScrollView` and `PreferredSize`.
+* Fixed: `flex` was needed in `Expanded`.
 
 ## 0.0.2
 
