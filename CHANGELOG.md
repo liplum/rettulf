@@ -1,3 +1,7 @@
+## 0.0.7
+
+* Added `isPortrait` and `isLandscape` in `BuildContext`.
+
 ## 0.0.6
 
 * Removed an accidentally-shadowed extension getter, `BuildContext.size`, on BuildContextMediaQueryEx.
