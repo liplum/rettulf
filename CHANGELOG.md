@@ -1,6 +1,6 @@
 ## 0.0.5
 
-* Added wrapper of `Container`.
+* Added wrappers of `Container`, `Card`.
 * Added extension functions for `MediaQuery`.
 * `buildcontext/show.dart` was Hidden in the entry point.
 * **[BREAKING CHANGE] Renamed the argument `clipBehavior` to `clip`.**
