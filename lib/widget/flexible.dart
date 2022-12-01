@@ -7,7 +7,6 @@ extension WidgetFlexibleEx on Widget {
 
   Expanded expended({
     Key? key,
-    required int flex,
   }) =>
-      Expanded(key: key, flex: flex, child: this);
+      Expanded(key: key, child: this);
 }
