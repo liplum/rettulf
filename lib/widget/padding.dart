@@ -13,6 +13,18 @@ extension WidgetPaddingEx on Widget {
         child: this,
       );
 
+  Padding padV(double v, {Key? key}) => Padding(
+        key: key,
+        padding: EdgeInsets.symmetric(vertical: v),
+        child: this,
+      );
+
+  Padding padH(double v, {Key? key}) => Padding(
+        key: key,
+        padding: EdgeInsets.symmetric(horizontal: v),
+        child: this,
+      );
+
   Padding padSymmetric({double v = 0.0, double h = 0.0, Key? key}) => Padding(
         key: key,
         padding: EdgeInsets.symmetric(vertical: v, horizontal: h),

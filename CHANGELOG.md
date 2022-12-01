@@ -1,7 +1,9 @@
 ## 0.0.4
+
 * Added wrapper of `Wrap`, `Align`.
 * `Text` can be applied on `Object?` now.
-* `Flex` can also be applied on a single Widget now. 
+* `Flex` can also be applied on a single Widget now.
+* Added `padV` and `padH` shortcuts of `padSymmetric`.
 
 ## 0.0.3
 
@@ -11,7 +13,8 @@
 
 ## 0.0.2
 
-* Added wrappers of `Expanded`, `Flexible`, `Stack`, `SafeArea`, `GestureDetector`, `CupertinoButton` and `FloatingActionButton`.
+* Added wrappers of `Expanded`, `Flexible`, `Stack`, `SafeArea`, `GestureDetector`, `CupertinoButton`
+  and `FloatingActionButton`.
 
 ## 0.0.1
 
