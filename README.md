@@ -1,7 +1,7 @@
 <div align="center" >
 
 # Rettulf
-
+[![pub package](https://img.shields.io/pub/v/rettulf.svg?style=for-the-badge&logo=dart)](https://pub.dartlang.org/packages/rettulf)
 ### *!esrever ni stegdiw etirW*
 
 ## Getting started
