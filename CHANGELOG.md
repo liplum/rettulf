@@ -1,6 +1,7 @@
 ## 0.0.7
 
 * Added `isPortrait` and `isLandscape` in `BuildContext`.
+* Typo: `expended` to `expanded`.
 
 ## 0.0.6
 

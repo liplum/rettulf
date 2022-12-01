@@ -5,7 +5,7 @@ extension WidgetFlexibleEx on Widget {
           {Key? key, required int flex, FlexFit fit = FlexFit.loose}) =>
       Flexible(key: key, flex: flex, fit: fit, child: this);
 
-  Expanded expended({
+  Expanded expanded({
     Key? key,
   }) =>
       Expanded(key: key, child: this);
