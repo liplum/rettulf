@@ -7,6 +7,7 @@ export 'buildcontext/navigation.dart';
 export 'widget/align.dart';
 export 'widget/button.dart';
 export 'widget/center.dart';
+export 'widget/container.dart';
 export 'widget/flex.dart';
 export 'widget/flexible.dart';
 export 'widget/gesture.dart';
