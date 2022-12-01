@@ -1,3 +1,6 @@
+## 0.0.4
+* Added wrapper of `Wrap`.
+
 ## 0.0.3
 
 * Added DSL for `ValueListenable`.
