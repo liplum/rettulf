@@ -3,11 +3,14 @@ import 'package:flutter/cupertino.dart';
 extension AlignWidgetEx on Widget {
   Align align({
     Key? key,
-    Alignment alignment = Alignment.center,
+    Alignment at = Alignment.center,
     double? widthFactor,
     double? heightFactor,
   }) =>
       Align(
+        alignment: at,
+        widthFactor: widthFactor,
+        heightFactor: heightFactor,
         child: this,
       );
 }

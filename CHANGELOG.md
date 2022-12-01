@@ -1,6 +1,7 @@
 ## 0.0.6
 
-* Removed an accidentally-shadowed extension getter, `BuildContext.size`, on BuildContextMediaQueryEx. 
+* Removed an accidentally-shadowed extension getter, `BuildContext.size`, on BuildContextMediaQueryEx.
+* Fixed: `Align` was unimplemented.
 
 ## 0.0.5
 
