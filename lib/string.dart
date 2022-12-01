@@ -36,7 +36,6 @@ extension StringEx on String {
           selectionColor: selectionColor);
 }
 
-
 extension ObjectEx on Object? {
   Text text({
     Key? key,

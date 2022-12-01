@@ -1,13 +1,7 @@
 library rettulf;
 
-export 'alias.dart';
-export 'icon.dart';
-export 'string.dart';
-
-export 'widget_list/flex.dart';
-export 'widget_list/listview.dart';
-export 'widget_list/stack.dart';
-export 'widget_list/wrap.dart';
+export 'buildcontext/general.dart';
+export 'buildcontext/show.dart';
 
 export 'widget/align.dart';
 export 'widget/button.dart';
@@ -24,5 +18,11 @@ export 'widget/scroll_view.dart';
 export 'widget/sizedbox.dart';
 export 'widget/value_listen.dart';
 
-export 'buildcontext/general.dart';
-export 'buildcontext/show.dart';
+export 'widget_list/flex.dart';
+export 'widget_list/listview.dart';
+export 'widget_list/stack.dart';
+export 'widget_list/wrap.dart';
+
+export 'alias.dart';
+export 'icon.dart';
+export 'string.dart';
