@@ -5,11 +5,18 @@ extension WidgetSizedBox on Widget {
         key: key,
         width: width,
         height: height,
+        child: this,
       );
 
   SizedBox sizedAll({Key? key, required double a}) => SizedBox(
         key: key,
         width: a,
         height: a,
+        child: this,
+      );
+
+  SizedBox shrinkSize({Key? key}) => SizedBox.shrink(
+        key: key,
+        child: this,
       );
 }
