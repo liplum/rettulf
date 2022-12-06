@@ -1,15 +1,14 @@
 import 'package:flutter/widgets.dart';
 
 extension WidgetCenterEx on Widget {
-  Center center({Key? key, double? widthFactor, double? heightFactor}) =>
-      Center(
+  Center center({Key? key, double? wFactor, double? hFactor}) => Center(
         key: key,
-        widthFactor: widthFactor,
-        heightFactor: heightFactor,
+        widthFactor: wFactor,
+        heightFactor: hFactor,
         child: this,
       );
 
-  Center centerAll({Key? key, required double factor}) => Center(
+  Center centerAll(double factor, {Key? key}) => Center(
         key: key,
         widthFactor: factor,
         heightFactor: factor,

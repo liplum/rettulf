@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 extension FittedBoxWidgetEx on Widget {
-  FittedBox fittedbox(
+  FittedBox fitted(
           {Key? key,
           BoxFit fit = BoxFit.contain,
           Alignment align = Alignment.center,
@@ -14,32 +14,32 @@ extension FittedBoxWidgetEx on Widget {
         child: this,
       );
 
-  LimitedBox limitedbox(
+  LimitedBox limited(
           {Key? key,
-          double maxWidth = double.infinity,
-          double maxHeight = double.infinity}) =>
+          double maxW = double.infinity,
+          double maxH = double.infinity}) =>
       LimitedBox(
         key: key,
-        maxWidth: maxWidth,
-        maxHeight: maxHeight,
+        maxWidth: maxW,
+        maxHeight: maxH,
         child: this,
       );
 
-  OverflowBox allowOverflow({
+  OverflowBox overflow({
     Key? key,
     Alignment align = Alignment.center,
-    double? minWidth,
-    double? maxWidth,
-    double? minHeight,
-    double? maxHeight,
+    double? minW,
+    double? maxW,
+    double? minH,
+    double? maxH,
   }) =>
       OverflowBox(
         key: key,
         alignment: align,
-        minWidth: minWidth,
-        maxWidth: maxWidth,
-        minHeight: minHeight,
-        maxHeight: maxHeight,
+        minWidth: minW,
+        maxWidth: maxW,
+        minHeight: minH,
+        maxHeight: maxH,
         child: this,
       );
 
@@ -50,18 +50,64 @@ extension FittedBoxWidgetEx on Widget {
         child: this,
       );
 
+  ConstrainedBox constrainedWith({
+    Key? key,
+    double minW = 0.0,
+    double maxW = double.infinity,
+    double minH = 0.0,
+    double maxH = double.infinity,
+  }) =>
+      ConstrainedBox(
+        key: key,
+        constraints: BoxConstraints(
+          minWidth: minW,
+          maxWidth: maxW,
+          minHeight: minH,
+          maxHeight: maxH,
+        ),
+        child: this,
+      );
+
+  ConstrainedBox constrainedTight({Key? key, required Size size}) =>
+      ConstrainedBox(
+        key: key,
+        constraints: BoxConstraints.tight(size),
+        child: this,
+      );
+
+  ConstrainedBox constrainedLoose({Key? key, required Size size}) =>
+      ConstrainedBox(
+        key: key,
+        constraints: BoxConstraints.loose(size),
+        child: this,
+      );
+
+  ConstrainedBox constrainedTightFor({Key? key, double? w, double? h}) =>
+      ConstrainedBox(
+        key: key,
+        constraints: BoxConstraints.tightFor(width: w, height: h),
+        child: this,
+      );
+
+  ConstrainedBox constrainedExpand({Key? key, double? w, double? h}) =>
+      ConstrainedBox(
+        key: key,
+        constraints: BoxConstraints.expand(width: w, height: h),
+        child: this,
+      );
+
   UnconstrainedBox unconstrained({
     Key? key,
-    TextDirection? textDirection,
+    TextDirection? dir,
     Alignment align = Alignment.center,
-    Axis? constrainedAxis,
+    Axis? axis,
     Clip clip = Clip.none,
   }) =>
       UnconstrainedBox(
         key: key,
-        textDirection: textDirection,
+        textDirection: dir,
         alignment: align,
-        constrainedAxis: constrainedAxis,
+        constrainedAxis: axis,
         clipBehavior: clip,
         child: this,
       );

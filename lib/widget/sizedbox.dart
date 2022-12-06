@@ -1,17 +1,17 @@
 import 'package:flutter/cupertino.dart';
 
 extension WidgetSizedBox on Widget {
-  SizedBox sized({Key? key, double? width, double? height}) => SizedBox(
+  SizedBox sized({Key? key, double? w, double? h}) => SizedBox(
         key: key,
-        width: width,
-        height: height,
+        width: w,
+        height: h,
         child: this,
       );
 
-  SizedBox sizedAll({Key? key, required double a}) => SizedBox(
+  SizedBox sizedAll(double length, {Key? key}) => SizedBox(
         key: key,
-        width: a,
-        height: a,
+        width: length,
+        height: length,
         child: this,
       );
 

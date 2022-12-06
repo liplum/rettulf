@@ -1,3 +1,6 @@
+## 0.1.0
+* **[BREAKING CHANGE] Renamed arguments to short ones.**
+
 ## 0.0.7
 
 * Added `isPortrait` and `isLandscape` in `BuildContext`.
