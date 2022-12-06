@@ -1,5 +1,6 @@
 ## 0.1.0
 * **[BREAKING CHANGE] Renamed arguments to short ones.**
+* Added with `heroOr`.
 
 ## 0.0.7
 
