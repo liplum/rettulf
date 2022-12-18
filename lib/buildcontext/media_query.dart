@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/widgets.dart';
 
-extension BuildContextMediaQueryEx on BuildContext {
+extension BuildContextMediaQueryX on BuildContext {
   MediaQueryData get mediaQuery => MediaQuery.of(this);
 
   Orientation get orientation => MediaQuery.of(this).orientation;

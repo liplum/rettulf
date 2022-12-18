@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-extension ContainerWidgetEx on Widget {
+extension ContainerWidgetX on Widget {
   Container container({
     Key? key,
     AlignmentGeometry? align,

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension HeroWidgetEx on Widget {
+extension HeroWidgetX on Widget {
   Hero hero(Object tag,
           {CreateRectTween? createRectTween,
           HeroFlightShuttleBuilder? flightShuttleBuilder,

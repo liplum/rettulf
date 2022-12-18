@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 
-extension ListViewEx on List<Widget> {
+extension ListViewX on List<Widget> {
   ListView listview({
     Key? key,
     Axis scrollDirection = Axis.vertical,
@@ -49,7 +49,7 @@ extension ListViewEx on List<Widget> {
       );
 }
 
-extension IndexedWidgetBuilderListViewEx on IndexedWidgetBuilder {
+extension IndexedWidgetBuilderListViewX on IndexedWidgetBuilder {
   ListView buildListview({
     Key? key,
     Axis scrollDirection = Axis.vertical,

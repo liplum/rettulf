@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-extension FittedBoxWidgetEx on Widget {
+extension FittedBoxWidgetX on Widget {
   FittedBox fitted(
           {Key? key,
           BoxFit fit = BoxFit.contain,

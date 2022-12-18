@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension WidgetCenterEx on Widget {
+extension WidgetCenterX on Widget {
   Center center({Key? key, double? wFactor, double? hFactor}) => Center(
         key: key,
         widthFactor: wFactor,

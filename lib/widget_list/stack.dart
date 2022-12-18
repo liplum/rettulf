@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension StackEx on List<Widget> {
+extension StackX on List<Widget> {
   Stack stack({
     Key? key,
     AlignmentDirectional align = AlignmentDirectional.topStart,

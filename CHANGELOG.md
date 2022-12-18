@@ -1,6 +1,7 @@
-## 0.1.0
+## 0.0.8
 * **[BREAKING CHANGE] Renamed arguments to short ones.**
-* Added with `heroOr`.
+* Added with `heroOr`, `sizedBy`.
+* Added wrappers of `MouseRegion`, `TextSpan`.
 
 ## 0.0.7
 

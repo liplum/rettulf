@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 
-extension SingleChildScrollViewWidgetEx on Widget {
+extension SingleChildScrollViewWidgetX on Widget {
   SingleChildScrollView scrolled({
     Key? key,
     Axis scrollDirection = Axis.vertical,

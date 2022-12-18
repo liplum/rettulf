@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-extension WrapWidgetEx on List<Widget> {
+extension WrapWidgetX on List<Widget> {
   Wrap wrap({
     Key? key,
     Axis direction = Axis.horizontal,

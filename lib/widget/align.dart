@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-extension AlignWidgetEx on Widget {
+extension AlignWidgetX on Widget {
   Align align({
     Key? key,
     Alignment at = Alignment.center,

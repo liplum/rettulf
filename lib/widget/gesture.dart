@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 
-extension WidgetGestureDetectorEx on Widget {
+extension WidgetGestureDetectorX on Widget {
   GestureDetector gestureDetect({
     Key? key,
     GestureTapDownCallback? onTapDown,

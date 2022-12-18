@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-extension WidgetButtonEx on Widget {
+extension WidgetButtonX on Widget {
   TextButton textBtn({
     Key? key,
     VoidCallback? onPressed,

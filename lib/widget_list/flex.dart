@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../alias.dart';
 
-extension FlexWidgetListEx on List<Widget> {
+extension FlexWidgetListX on List<Widget> {
   Row row(
           {Key? key,
           MAAlign maa = MAAlign.start,

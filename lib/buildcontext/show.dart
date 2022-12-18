@@ -7,7 +7,7 @@ import 'package:flutter/material.dart' as m
         showDatePicker;
 import 'package:flutter/material.dart';
 
-extension BuilContextShowEx on BuildContext {
+extension BuilContextShowX on BuildContext {
   Future<T?> showDialog<T>({
     required WidgetBuilder builder,
     bool barrierDismissible = true,

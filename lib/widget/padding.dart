@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension WidgetPaddingEx on Widget {
+extension WidgetPaddingX on Widget {
   Padding pad(EdgeInsetsGeometry padding, {Key? key}) => Padding(
         key: key,
         padding: padding,

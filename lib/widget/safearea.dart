@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension WidgetSafeAreaEx on Widget {
+extension WidgetSafeAreaX on Widget {
   SafeArea safeArea({
     Key? key,
     bool l = true,

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension IconEx on IconData {
+extension IconX on IconData {
   Icon make({
     Key? key,
     double? size,

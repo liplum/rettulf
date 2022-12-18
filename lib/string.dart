@@ -2,7 +2,7 @@ import 'dart:ui' as ui show TextHeightBehavior;
 
 import 'package:flutter/material.dart';
 
-extension StringEx on String {
+extension StringX on String {
   Text text({
     Key? key,
     TextStyle? style,
@@ -36,7 +36,7 @@ extension StringEx on String {
           selectionColor: selectionColor);
 }
 
-extension ObjectEx on Object? {
+extension ObjectX on Object? {
   Text text({
     Key? key,
     TextStyle? style,

@@ -2,7 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-extension WidgetMaterialEx on Widget {
+extension WidgetMaterialX on Widget {
   Scaffold scaffold({
     Key? key,
     PreferredSizeWidget? appBar,
