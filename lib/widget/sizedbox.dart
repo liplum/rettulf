@@ -7,7 +7,7 @@ extension WidgetSizedBox on Widget {
         height: h,
         child: this,
       );
-  SizedBox sizedBy(Size size,{Key? key}) => SizedBox(
+  SizedBox sizedIn(Size size,{Key? key}) => SizedBox(
         key: key,
         width: size.width,
         height: size.height,

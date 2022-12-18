@@ -25,7 +25,7 @@ extension FittedBoxWidgetX on Widget {
         child: this,
       );
 
-  OverflowBox overflow({
+  OverflowBox overflowed({
     Key? key,
     Alignment align = Alignment.center,
     double? minW,
@@ -43,14 +43,7 @@ extension FittedBoxWidgetX on Widget {
         child: this,
       );
 
-  ConstrainedBox constrained(BoxConstraints constraints, {Key? key}) =>
-      ConstrainedBox(
-        key: key,
-        constraints: constraints,
-        child: this,
-      );
-
-  ConstrainedBox constrainedWith({
+  ConstrainedBox constrained({
     Key? key,
     double minW = 0.0,
     double maxW = double.infinity,
@@ -68,28 +61,41 @@ extension FittedBoxWidgetX on Widget {
         child: this,
       );
 
-  ConstrainedBox constrainedTight({Key? key, required Size size}) =>
+  ConstrainedBox constrainedBy(BoxConstraints constraints, {Key? key}) =>
+      ConstrainedBox(
+        key: key,
+        constraints: constraints,
+        child: this,
+      );
+
+  ConstrainedBox tightConstrained(
+    Size size, {
+    Key? key,
+  }) =>
       ConstrainedBox(
         key: key,
         constraints: BoxConstraints.tight(size),
         child: this,
       );
 
-  ConstrainedBox constrainedLoose({Key? key, required Size size}) =>
+  ConstrainedBox looseConstrained(
+    Size size, {
+    Key? key,
+  }) =>
       ConstrainedBox(
         key: key,
         constraints: BoxConstraints.loose(size),
         child: this,
       );
 
-  ConstrainedBox constrainedTightFor({Key? key, double? w, double? h}) =>
+  ConstrainedBox tightConstrainedFor({Key? key, double? w, double? h}) =>
       ConstrainedBox(
         key: key,
         constraints: BoxConstraints.tightFor(width: w, height: h),
         child: this,
       );
 
-  ConstrainedBox constrainedExpand({Key? key, double? w, double? h}) =>
+  ConstrainedBox expandConstrained({Key? key, double? w, double? h}) =>
       ConstrainedBox(
         key: key,
         constraints: BoxConstraints.expand(width: w, height: h),
