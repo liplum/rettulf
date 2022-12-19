@@ -1,4 +1,9 @@
+## 0.0.9
+
+* Added wrapper of `InkWell`.
+
 ## 0.0.8
+
 * **[BREAKING CHANGE] Renamed arguments to short ones.**
 * Added with `heroOr`, `sizedBy`.
 * Added wrappers of `MouseRegion`, `TextSpan`.
