@@ -7,5 +7,7 @@ extension BuildContextThemeX on BuildContext {
 
   bool get isLightMode => Theme.of(this).brightness == Brightness.light;
 
+  TargetPlatform get targetPlatform => Theme.of(this).platform;
+
   TextTheme get textTheme => Theme.of(this).textTheme;
 }

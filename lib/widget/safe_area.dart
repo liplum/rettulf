@@ -11,12 +11,13 @@ extension WidgetSafeAreaX on Widget {
     bool maintainBottomViewPadding = false,
   }) =>
       SafeArea(
-          key: key,
-          left: l,
-          top: t,
-          right: r,
-          bottom: b,
-          minimum: min,
-          maintainBottomViewPadding: maintainBottomViewPadding,
-          child: this);
+        key: key,
+        left: l,
+        top: t,
+        right: r,
+        bottom: b,
+        minimum: min,
+        maintainBottomViewPadding: maintainBottomViewPadding,
+        child: this,
+      );
 }
