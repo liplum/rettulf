@@ -1,6 +1,6 @@
 ## 0.0.9
 
-* Added wrapper of `InkWell`, `ClipRRect`.
+* Added wrapper of `InkWell`, `ClipRRect`, `Positioned`.
 
 ## 0.0.8
 
