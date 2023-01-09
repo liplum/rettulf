@@ -5,7 +5,7 @@ extension ClipRRectWidgetX on Widget {
     Key? key,
     BorderRadiusGeometry? borderRadius,
     CustomClipper<RRect>? clipper,
-    Clip clip = Clip.none,
+    Clip clip = Clip.antiAlias,
   }) =>
       ClipRRect(
         borderRadius: borderRadius,

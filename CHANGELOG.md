@@ -1,3 +1,6 @@
+## 0.0.10
+
+* Fixed `clipBehavior is none in ClipRRect`.
 ## 0.0.9
 
 * Added wrapper of `InkWell`, `ClipRRect`, `Positioned`, `Listener`.
