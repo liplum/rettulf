@@ -17,6 +17,7 @@ export 'widget/hero.dart';
 export 'widget/listener.dart';
 export 'widget/material.dart';
 export 'widget/mouse.dart';
+export 'widget/opacity.dart';
 export 'widget/padding.dart';
 export 'widget/positioned.dart';
 export 'widget/preferred_size.dart';

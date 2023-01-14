@@ -1,9 +1,12 @@
 ## 0.0.10
 
+* Added wrappers of `Opacity`.
+
 * Fixed `clipBehavior is none in ClipRRect`.
+
 ## 0.0.9
 
-* Added wrapper of `InkWell`, `ClipRRect`, `Positioned`, `Listener`.
+* Added wrappers of `InkWell`, `ClipRRect`, `Positioned`, `Listener`.
 
 ## 0.0.8
 
