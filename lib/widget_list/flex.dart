@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../alias.dart';
 
 extension FlexWidgetListX on List<Widget> {
+  /// see [Row]
   Row row(
           {Key? key,
           MAAlign maa = MAAlign.start,
@@ -22,6 +23,7 @@ extension FlexWidgetListX on List<Widget> {
         children: this,
       );
 
+  /// see [Column]
   Column column(
           {Key? key,
           MAAlign maa = MAAlign.start,
@@ -41,6 +43,7 @@ extension FlexWidgetListX on List<Widget> {
         children: this,
       );
 
+  /// see [Flex]
   Flex flex(
           {Key? key,
           required Axis direction,

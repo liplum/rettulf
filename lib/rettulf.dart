@@ -16,6 +16,7 @@ export 'widget/flexible.dart';
 export 'widget/gesture.dart';
 export 'widget/hero.dart';
 export 'widget/listener.dart';
+export 'widget/listenable.dart';
 export 'widget/material.dart';
 export 'widget/mouse.dart';
 export 'widget/opacity.dart';
@@ -26,7 +27,6 @@ export 'widget/safe_area.dart';
 export 'widget/scroll_view.dart';
 export 'widget/sizedbox.dart';
 export 'widget/text_span.dart';
-export 'widget/listenable.dart';
 
 export 'widget_list/flex.dart';
 export 'widget_list/listview.dart';
@@ -34,5 +34,5 @@ export 'widget_list/stack.dart';
 export 'widget_list/wrap.dart';
 
 export 'alias.dart';
-export 'icon.dart';
-export 'string.dart';
+export 'primitive/icon.dart';
+export 'primitive/string.dart';

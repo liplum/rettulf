@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 extension IconX on IconData {
+  /// see [Icon]
   Icon make({
     Key? key,
     double? size,
