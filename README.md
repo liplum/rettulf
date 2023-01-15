@@ -8,7 +8,7 @@
 
 ## Getting started
 
-![an app with reversed hello world](rettulf/img/showcase.png)
+![an app with reversed hello world](img/showcase.png)
 
 </div>
 
@@ -30,16 +30,6 @@ class MyApp extends StatelessWidget {
           .materialApp(title: "Rettulf");
 }
 
-```
-
-### **[WIP]** Noitcelloc
-
-Rettulf provides some chained methods on Iterable and maybe for each collection, called `noitcelloc`.
-
-```
-final list = ["a", 1, 4, true, 5.5];
-final filtered = list.ofType<num>();
-print(filtered); // Console output: (1, 4, 5.5)
 ```
 
 ## Additional information
