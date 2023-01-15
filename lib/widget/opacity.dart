@@ -14,7 +14,7 @@ extension WidgetOpacityX on Widget {
         child: this,
       );
 
-  /// When [opacity] >= [threshold] (default is 1.0), the Opacity widget will be returned.
+  /// When [opacity] < [threshold] (default is 1.0), the Opacity widget will be returned.
   /// Otherwise, this will be returned.
   ///
   /// see [Opacity]
@@ -24,12 +24,12 @@ extension WidgetOpacityX on Widget {
     double threshold = 1.0,
     bool alwaysIncludeSemantics = false,
   }) =>
-      opacity >= threshold
-          ? this
-          : Opacity(
+      opacity < threshold
+          ? Opacity(
               key: key,
               opacity: opacity,
               alwaysIncludeSemantics: alwaysIncludeSemantics,
               child: this,
-            );
+            )
+          : this;
 }
