@@ -130,15 +130,20 @@ extension WidgetGestureDetectorX on Widget {
         child: this,
       );
 
-  GestureDetector onTap(GestureTapCallback onTap, {Key? key}) =>
+  GestureDetector onTap(
+    GestureTapCallback onTap, {
+    Key? key,
+  }) =>
       GestureDetector(
         key: key,
         onTap: onTap,
         child: this,
       );
 
-  GestureDetector onLongPress(GestureLongPressCallback onLongPress,
-          {Key? key}) =>
+  GestureDetector onLongPress(
+    GestureLongPressCallback onLongPress, {
+    Key? key,
+  }) =>
       GestureDetector(
         key: key,
         onLongPress: onLongPress,
