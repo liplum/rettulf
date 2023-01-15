@@ -1,10 +1,14 @@
 <div align="center" >
 
 # Rettulf
+
 [![pub package](https://img.shields.io/pub/v/rettulf.svg?style=for-the-badge&logo=dart)](https://pub.dartlang.org/packages/rettulf)
+
 ### *!esrever ni stegdiw etirW*
 
 ## Getting started
+
+![an app with reversed hello world](img/showcase.png)
 
 </div>
 
@@ -18,20 +22,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-          "!dlorW ,olleH"
+      "!dlorW ,olleH"
           .text()
           .padAll(50)
           .center()
           .scaffold(appBar: "RAB PPA".text().appBar())
           .materialApp(title: "Rettulf");
 }
+
 ```
 
-<div align="center" >
+### **[WIP]** Noitcelloc
 
-![an app with reversed hello world](img/showcase.png)
+Rettulf provides some chained methods on Iterable and maybe for each collection, called `noitcelloc`.
 
-</div>
+```
+final list = ["a", 1, 4, true, 5.5];
+final filtered = list.ofType<num>();
+print(filtered); // Console output: (1, 4, 5.5)
+```
 
 ## Additional information
 
