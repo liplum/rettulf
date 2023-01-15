@@ -8,7 +8,7 @@
 
 ## Getting started
 
-![an app with reversed hello world](img/showcase.png)
+![an app with reversed hello world](rettulf/img/showcase.png)
 
 </div>
 

@@ -1,6 +1,7 @@
-import 'package:noitcelloc/noitcelloc.dart';
+import 'package:noitcelloc/chain.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  final list = ["a", 1, 4, true, 5.5];
+  final filtered = list.ofType<num>();
+  print(filtered); // Console output: (1, 4, 5.5)
 }
