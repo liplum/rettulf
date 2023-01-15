@@ -1,3 +1,6 @@
+## 0.0.11
+* Fixed `opacityOrNot`.
+
 ## 0.0.10
 
 * Added wrappers of `Opacity`, `AspectRatio`, `AnimatedBuilder`.

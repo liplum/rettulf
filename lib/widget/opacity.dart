@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 
 extension WidgetOpacityX on Widget {
   /// see [Opacity]
-  Opacity opacity({
+  Opacity opacity(
+    double opacity, {
     Key? key,
-    required double opacity,
     bool alwaysIncludeSemantics = false,
   }) =>
       Opacity(
@@ -14,21 +14,21 @@ extension WidgetOpacityX on Widget {
         child: this,
       );
 
-  /// When [opacity] >= [opacityThreshold] (default is 1.0), the Opacity widget will be returned.
+  /// When [opacity] >= [threshold] (default is 1.0), the Opacity widget will be returned.
   /// Otherwise, this will be returned.
   ///
   /// see [Opacity]
-  Widget opacityOrNot({
+  Widget opacityOrNot(
+    double opacity, {
     Key? key,
-    required double opacity,
-    double opacityThreshold = 1.0,
+    double threshold = 1.0,
     bool alwaysIncludeSemantics = false,
   }) =>
-      opacity >= 1
+      opacity >= threshold
           ? this
           : Opacity(
               key: key,
-              opacity: opacityThreshold,
+              opacity: opacity,
               alwaysIncludeSemantics: alwaysIncludeSemantics,
               child: this,
             );
