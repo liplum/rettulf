@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 extension PositionedWidgetX on Widget {
+  /// see [Positioned]
   Positioned positioned({
     Key? key,
     double? l,

@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 extension HeroWidgetX on Widget {
+  /// see [Hero]
   Hero hero(
     Object tag, {
     CreateRectTween? createRectTween,
@@ -17,6 +18,8 @@ extension HeroWidgetX on Widget {
           child: this);
 
   /// If [tag] is null, this will be returned.
+  ///
+  /// see [Widget]
   Widget heroOrNot(
     Object? tag, {
     CreateRectTween? createRectTween,

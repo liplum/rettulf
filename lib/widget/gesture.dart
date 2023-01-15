@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 
 extension WidgetGestureDetectorX on Widget {
+  /// see [GestureDetector]
   GestureDetector gestureDetect({
     Key? key,
     GestureTapDownCallback? onTapDown,
@@ -130,6 +131,7 @@ extension WidgetGestureDetectorX on Widget {
         child: this,
       );
 
+  /// see [GestureDetector]
   GestureDetector onTap(
     GestureTapCallback onTap, {
     Key? key,
@@ -140,6 +142,7 @@ extension WidgetGestureDetectorX on Widget {
         child: this,
       );
 
+  /// see [GestureDetector]
   GestureDetector onLongPress(
     GestureLongPressCallback onLongPress, {
     Key? key,
@@ -150,6 +153,7 @@ extension WidgetGestureDetectorX on Widget {
         child: this,
       );
 
+  /// see [GestureDetector]
   GestureDetector on({
     Key? key,
     GestureTapCallback? tap,

@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
 
-extension ContainerWidgetX on Widget {
+extension AspectRatioWidgetX on Widget {
   /// see [AspectRatio]
   AspectRatio aspectRatio({
     required double aspectRatio,

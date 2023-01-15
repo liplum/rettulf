@@ -5,6 +5,7 @@ export 'build_context/media_query.dart';
 export 'build_context/navigation.dart';
 
 export 'widget/align.dart';
+export 'widget/aspect_ratio.dart';
 export 'widget/boxes.dart';
 export 'widget/button.dart';
 export 'widget/center.dart';
@@ -25,7 +26,7 @@ export 'widget/safe_area.dart';
 export 'widget/scroll_view.dart';
 export 'widget/sizedbox.dart';
 export 'widget/text_span.dart';
-export 'widget/value_listen.dart';
+export 'widget/listenable.dart';
 
 export 'widget_list/flex.dart';
 export 'widget_list/listview.dart';

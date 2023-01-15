@@ -1,6 +1,6 @@
 ## 0.0.10
 
-* Added wrappers of `Opacity`, `AspectRatio`.
+* Added wrappers of `Opacity`, `AspectRatio`, `AnimatedBuilder`.
 * Added `opacityOrNot` for `Opacity`.
 * Fixed `clipBehavior is none in ClipRRect`.
 * Added `colorScheme` on `BuildContext`.

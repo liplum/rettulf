@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 extension TextSpanInlineSpanListX on List<InlineSpan> {
+  /// see [TextSpan]
   TextSpan textSpan({
     Key? key,
     TextStyle? style,
@@ -28,6 +29,7 @@ extension TextSpanInlineSpanListX on List<InlineSpan> {
 }
 
 extension TextSpanX on String {
+  /// see [TextSpan]
   TextSpan textSpan({
     Key? key,
     TextStyle? style,

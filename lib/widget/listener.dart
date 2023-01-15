@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 extension ListenerWidgetX on Widget {
+  /// see [Listener]
   Listener listener({
     Key? key,
     PointerDownEventListener? onPointerDown,

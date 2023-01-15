@@ -1,16 +1,18 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 import '../alias.dart';
 
 extension FlexWidgetX on Widget {
-  Row row(
-          {Key? key,
-          MAAlign maa = MAAlign.start,
-          MainAxisSize mas = MainAxisSize.max,
-          CAAlign caa = CAAlign.center,
-          TextDirection? textDirection,
-          VerticalDirection vd = VerticalDirection.down,
-          TextBaseline? textBaseline}) =>
+  /// see [Row]
+  Row row({
+    Key? key,
+    MAAlign maa = MAAlign.start,
+    MASize mas = MASize.max,
+    CAAlign caa = CAAlign.center,
+    TextDirection? textDirection,
+    VerticalDirection vd = VerticalDirection.down,
+    TextBaseline? textBaseline,
+  }) =>
       Row(
         key: key,
         mainAxisAlignment: maa = maa,
@@ -22,14 +24,16 @@ extension FlexWidgetX on Widget {
         children: [this],
       );
 
-  Column column(
-          {Key? key,
-          MAAlign maa = MAAlign.start,
-          MainAxisSize mas = MainAxisSize.max,
-          CAAlign caa = CAAlign.center,
-          TextDirection? textDirection,
-          VerticalDirection vd = VerticalDirection.down,
-          TextBaseline? textBaseline}) =>
+  /// see [Column]
+  Column column({
+    Key? key,
+    MAAlign maa = MAAlign.start,
+    MASize mas = MASize.max,
+    CAAlign caa = CAAlign.center,
+    TextDirection? textDirection,
+    VerticalDirection vd = VerticalDirection.down,
+    TextBaseline? textBaseline,
+  }) =>
       Column(
         key: key,
         mainAxisAlignment: maa = maa,
@@ -41,16 +45,18 @@ extension FlexWidgetX on Widget {
         children: [this],
       );
 
-  Flex flex(
-          {Key? key,
-          required Axis direction,
-          MAAlign maa = MAAlign.start,
-          MainAxisSize mas = MainAxisSize.max,
-          CAAlign caa = CAAlign.center,
-          TextDirection? textDirection,
-          VerticalDirection vd = VerticalDirection.down,
-          TextBaseline? textBaseline,
-          Clip clip = Clip.none}) =>
+  /// see [Flex]
+  Flex flex({
+    Key? key,
+    required Axis direction,
+    MAAlign maa = MAAlign.start,
+    MASize mas = MASize.max,
+    CAAlign caa = CAAlign.center,
+    TextDirection? textDirection,
+    VerticalDirection vd = VerticalDirection.down,
+    TextBaseline? textBaseline,
+    Clip clip = Clip.none,
+  }) =>
       Flex(
         key: key,
         direction: direction,

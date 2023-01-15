@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 extension PreferredSizeWidget on Widget {
+  /// see [PreferredSize]
   PreferredSize preferredSize(
     Size size, {
     Key? key,

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 extension WidgetOpacityX on Widget {
+  /// see [Opacity]
   Opacity opacity({
     Key? key,
     required double opacity,
@@ -15,6 +16,8 @@ extension WidgetOpacityX on Widget {
 
   /// When [opacity] >= [opacityThreshold] (default is 1.0), the Opacity widget will be returned.
   /// Otherwise, this will be returned.
+  ///
+  /// see [Opacity]
   Widget opacityOrNot({
     Key? key,
     required double opacity,

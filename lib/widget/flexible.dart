@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 extension WidgetFlexibleX on Widget {
+  /// see [Flexible]
   Flexible flexible({
     Key? key,
     int flex = 1,
@@ -13,6 +14,7 @@ extension WidgetFlexibleX on Widget {
         child: this,
       );
 
+  /// see [Expanded]
   Expanded expanded({
     Key? key,
     int flex = 1,

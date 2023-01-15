@@ -2,6 +2,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 extension MouseX on Widget {
+  /// see [MouseRegion]
   MouseRegion mouseRegion({
     PointerEnterEventListener? onEnter,
     PointerHoverEventListener? onHover,

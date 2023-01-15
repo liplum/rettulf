@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 extension WidgetButtonX on Widget {
+  /// see [TextButton]
   TextButton textBtn({
     Key? key,
     VoidCallback? onPressed,
@@ -27,6 +28,7 @@ extension WidgetButtonX on Widget {
           statesController: statesController,
           child: this);
 
+  /// see [ElevatedButton]
   ElevatedButton elevatedBtn({
     Key? key,
     VoidCallback? onPressed,
@@ -52,6 +54,7 @@ extension WidgetButtonX on Widget {
           statesController: statesController,
           child: this);
 
+  /// see [CupertinoButton]
   CupertinoButton cupertinoBtn({
     Key? key,
     EdgeInsetsGeometry? padding,
@@ -75,6 +78,7 @@ extension WidgetButtonX on Widget {
           alignment: alignment,
           child: this);
 
+  /// see [IconButton]
   IconButton iconBtn({
     Key? key,
     double? iconSize,

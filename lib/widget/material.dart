@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 extension WidgetMaterialX on Widget {
+  /// see [Scaffold]
   Scaffold scaffold({
     Key? key,
     PreferredSizeWidget? appBar,
@@ -56,6 +57,7 @@ extension WidgetMaterialX on Widget {
         restorationId: restorationId,
       );
 
+  /// see [AppBar]
   AppBar appBar({
     Key? key,
     Widget? leading,
@@ -65,8 +67,7 @@ extension WidgetMaterialX on Widget {
     PreferredSizeWidget? bottom,
     double? elevation,
     double? scrolledUnderElevation,
-    ScrollNotificationPredicate notificationPredicate =
-        defaultScrollNotificationPredicate,
+    ScrollNotificationPredicate notificationPredicate = defaultScrollNotificationPredicate,
     Color? shadowColor,
     Color? surfaceTintColor,
     ShapeBorder? shape,
@@ -117,6 +118,7 @@ extension WidgetMaterialX on Widget {
         systemOverlayStyle: systemOverlayStyle,
       );
 
+  /// see [MaterialApp]
   MaterialApp materialApp({
     Key? key,
     GlobalKey<NavigatorState>? navigatorKey,
@@ -187,7 +189,8 @@ extension WidgetMaterialX on Widget {
         useInheritedMediaQuery: useInheritedMediaQuery,
       );
 
-  FloatingActionButton floatingActionButton({
+  /// see [FloatingActionButton]
+  FloatingActionButton fab({
     Key? key,
     String? tooltip,
     Color? foregroundColor,
@@ -237,6 +240,7 @@ extension WidgetMaterialX on Widget {
         child: this,
       );
 
+  /// see [Card]
   Card inCard({
     Key? key,
     Color? color,
@@ -262,6 +266,7 @@ extension WidgetMaterialX on Widget {
         child: this,
       );
 
+  /// see [InkWell]
   InkWell inkWell({
     Key? key,
     GestureTapCallback? onTap,
