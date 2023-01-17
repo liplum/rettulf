@@ -4,32 +4,21 @@ import 'package:flutter/widgets.dart';
 extension ValueListenableEx<T> on ValueListenable<T> {
   /// see [ValueListenableBuilder]
   ValueListenableBuilder<T> operator <<(
-    ValueWidgetBuilder<T> builder,
+    Widget Function(BuildContext context, T value) builder,
   ) =>
       ValueListenableBuilder(
         valueListenable: this,
-        builder: builder,
-      );
-}
-
-extension ValueListenBuilderEx<T> on ValueWidgetBuilder<T> {
-  /// see [ValueListenableBuilder]
-  ValueListenableBuilder<T> operator >>(
-    ValueListenable<T> value,
-  ) =>
-      ValueListenableBuilder(
-        valueListenable: value,
-        builder: this,
+        builder: (context, value, child) => builder(context, value),
       );
 }
 
 extension ListenableX on Listenable {
   /// see [AnimatedBuilder]
   AnimatedBuilder operator <<(
-    TransitionBuilder builder,
+    WidgetBuilder builder,
   ) =>
       AnimatedBuilder(
         animation: this,
-        builder: builder,
+        builder: (context, child) => builder(context),
       );
 }

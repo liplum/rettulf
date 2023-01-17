@@ -1,3 +1,7 @@
+# 0.0.12
+* **[BREAKING CHANGE] Remove `opacityOrNot`.**
+* **[BREAKING CHANGE] Redesign `ValueListenable` extension.**
+* Added wrappers of `SliverPadding`.
 ## 0.0.11
 * Fixed `opacityOrNot`.
 

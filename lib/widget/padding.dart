@@ -84,4 +84,88 @@ extension WidgetPaddingX on Widget {
         padding: EdgeInsets.fromLTRB(l, t, r, b),
         child: this,
       );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPad(
+    EdgeInsetsGeometry padding, {
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: padding,
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadAll(
+    double v, {
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.all(v),
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadV(
+    double v, {
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.symmetric(vertical: v),
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadH(
+    double v, {
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.symmetric(horizontal: v),
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadSymmetric({
+    double v = 0.0,
+    double h = 0.0,
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.symmetric(vertical: v, horizontal: h),
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadOnly({
+    double l = 0.0,
+    double t = 0.0,
+    double r = 0.0,
+    double b = 0.0,
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.only(left: l, top: t, right: r, bottom: b),
+        sliver: this,
+      );
+
+  /// see [SliverPadding]
+  SliverPadding sliverPadFromLTRB(
+    double l,
+    double t,
+    double r,
+    double b, {
+    Key? key,
+  }) =>
+      SliverPadding(
+        key: key,
+        padding: EdgeInsets.fromLTRB(l, t, r, b),
+        sliver: this,
+      );
 }
