@@ -1,8 +1,15 @@
+# 0.0.13
+
+* **[BREAKING CHANGE] Changed `ValueListenable` arrow direction to be more fluent.**
+
 # 0.0.12
+
 * **[BREAKING CHANGE] Remove `opacityOrNot`.**
 * **[BREAKING CHANGE] Redesign `ValueListenable` extension.**
 * Added wrappers of `SliverPadding`.
+
 ## 0.0.11
+
 * Fixed `opacityOrNot`.
 
 ## 0.0.10

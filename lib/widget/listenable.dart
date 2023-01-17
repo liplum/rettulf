@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 
 extension ValueListenableEx<T> on ValueListenable<T> {
   /// see [ValueListenableBuilder]
-  ValueListenableBuilder<T> operator <<(
+  ValueListenableBuilder<T> operator >>(
     Widget Function(BuildContext context, T value) builder,
   ) =>
       ValueListenableBuilder(
@@ -14,7 +14,7 @@ extension ValueListenableEx<T> on ValueListenable<T> {
 
 extension ListenableX on Listenable {
   /// see [AnimatedBuilder]
-  AnimatedBuilder operator <<(
+  AnimatedBuilder operator >>(
     WidgetBuilder builder,
   ) =>
       AnimatedBuilder(
