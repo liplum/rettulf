@@ -14,8 +14,7 @@ extension SingleChildScrollViewWidgetX on Widget {
     DragStartBehavior dragStartBehavior = DragStartBehavior.start,
     Clip clip = Clip.hardEdge,
     String? restorationId,
-    ScrollViewKeyboardDismissBehavior keyboardDismissBehavior =
-        ScrollViewKeyboardDismissBehavior.manual,
+    ScrollViewKeyboardDismissBehavior keyboardDismissBehavior = ScrollViewKeyboardDismissBehavior.manual,
   }) =>
       SingleChildScrollView(
         key: key,

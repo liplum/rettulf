@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart' as m
-    show
-        showDialog,
-        showBottomSheet,
-        showModalBottomSheet,
-        showAboutDialog,
-        showDatePicker;
+    show showDialog, showBottomSheet, showModalBottomSheet, showAboutDialog, showDatePicker;
 import 'package:flutter/material.dart';
 
 extension BuilContextShowX on BuildContext {

@@ -25,7 +25,6 @@ export 'widget/positioned.dart';
 export 'widget/preferred_size.dart';
 export 'widget/safe_area.dart';
 export 'widget/scroll_view.dart';
-export 'widget/sizedbox.dart';
 export 'widget/text_span.dart';
 
 export 'widget_list/flex.dart';
