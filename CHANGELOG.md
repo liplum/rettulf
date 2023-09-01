@@ -1,4 +1,4 @@
-# 0.0.1
+# 1.0.0
 * **[BREAKING CHANGE] Removed `scaffold`, `appBar`, `materialApp`, `fab` in `material.dart`.**
 * **[BREAKING CHANGE] Removed `button.dart`, including `textBtn`, `elevatedBtn`, `cupertinoBtn`, `iconBtn`.**
 * **[BREAKING CHANGE] Renamed `textSpan` to `span`.**
