@@ -11,7 +11,5 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => "!dlorW ,olleH"
       .text()
       .padAll(50)
-      .center()
-      .scaffold(appBar: "RAB PPA".text().appBar())
-      .materialApp(title: "Rettulf");
+      .center();
 }

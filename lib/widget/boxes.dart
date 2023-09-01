@@ -112,7 +112,7 @@ extension LayoutBoxWidgetX on Widget {
         child: this,
       );
 
- /// see [ConstrainedBox], [BoxConstraints.expand]
+  /// see [ConstrainedBox], [BoxConstraints.expand]
   ConstrainedBox expandConstrained({
     Key? key,
     double? w,

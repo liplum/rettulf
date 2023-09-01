@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 
 extension TextSpanInlineSpanListX on List<InlineSpan> {
   /// see [TextSpan]
-  TextSpan textSpan({
+  TextSpan span({
     Key? key,
     TextStyle? style,
     MouseCursor? mouseCursor,
@@ -30,7 +30,7 @@ extension TextSpanInlineSpanListX on List<InlineSpan> {
 
 extension TextSpanX on String {
   /// see [TextSpan]
-  TextSpan textSpan({
+  TextSpan span({
     Key? key,
     TextStyle? style,
     MouseCursor? mouseCursor,

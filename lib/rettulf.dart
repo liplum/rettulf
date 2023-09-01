@@ -7,7 +7,6 @@ export 'build_context/navigation.dart';
 export 'widget/align.dart';
 export 'widget/aspect_ratio.dart';
 export 'widget/boxes.dart';
-export 'widget/button.dart';
 export 'widget/center.dart';
 export 'widget/container.dart';
 export 'widget/clip_r_rect.dart';
