@@ -1,3 +1,9 @@
+# 0.0.1
+* **[BREAKING CHANGE] Removed `scaffold`, `appBar`, `materialApp`, `fab` in `material.dart`.**
+* **[BREAKING CHANGE] Removed `button.dart`, including `textBtn`, `elevatedBtn`, `cupertinoBtn`, `iconBtn`.**
+* **[BREAKING CHANGE] Renamed `textSpan` to `span`.**
+* **[BREAKING CHANGE] `clipRRect.borderRadius` is nonnullable now.**
+
 # 0.0.13
 
 * **[BREAKING CHANGE] Changed `ValueListenable` arrow direction to be more fluent.**
