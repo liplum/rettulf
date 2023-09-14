@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-extension WidgetOpacityX on Widget {
+extension RettulfOpacityX on Widget {
   /// see [Opacity]
   Opacity opacity(
     double opacity, {

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension WidgetFlexibleX on Widget {
+extension RettulfFlexibleX on Widget {
   /// see [Flexible]
   Flexible flexible({
     Key? key,

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension HeroWidgetX on Widget {
+extension RettulfHeroX on Widget {
   /// see [Hero]
   Hero hero(
     Object tag, {

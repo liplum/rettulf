@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-extension WidgetMaterialX on Widget {
+extension RettulfMaterialX on Widget {
   /// see [Card]
   Card inCard({
     Key? key,

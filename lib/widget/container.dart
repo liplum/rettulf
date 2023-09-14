@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension ContainerWidgetX on Widget {
+extension RettulfContainerX on Widget {
   /// see [Container]
   Container container({
     Key? key,

@@ -1,3 +1,10 @@
+# 2.0.0
+* **[BREAKING CHANGE]** Removed alias `MAAlign`, `MASize`, and `CAAlign`.
+* **[BREAKING CHANGE]** Renamed all extensions to be prefixed with `Rettulf`.
+* **[BREAKING CHANGE]** Removed the `flex`, `row`, `column` for single widget.
+* **[BREAKING CHANGE]** Removed `showDialog`, `showBottomSheet`, `showModalBottomSheet`, and `showDatePicker`.
+* Fixed: `PreferredSizeWidget` extension has name collision.
+
 # 1.0.0
 * **[BREAKING CHANGE] Removed `scaffold`, `appBar`, `materialApp`, `fab` in `material.dart`.**
 * **[BREAKING CHANGE] Removed `button.dart`, including `textBtn`, `elevatedBtn`, `cupertinoBtn`, `iconBtn`.**

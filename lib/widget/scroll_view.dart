@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 
-extension SingleChildScrollViewWidgetX on Widget {
+extension RettulfSingleChildScrollViewX on Widget {
   /// see [SingleChildScrollView]
   SingleChildScrollView scrolled({
     Key? key,

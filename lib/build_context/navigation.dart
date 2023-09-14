@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
 
-extension BuildContextNavigationX on BuildContext {
+extension RettulfBuildContextNavigationX on BuildContext {
   NavigatorState get navigator => Navigator.of(this);
 }

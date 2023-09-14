@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
 
-extension RunAppX on Widget {
+extension RettulfRunAppX on Widget {
   void runAsApp() => runApp(this);
 }

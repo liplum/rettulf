@@ -2,7 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
-extension TextSpanInlineSpanListX on List<InlineSpan> {
+extension RettulfTextSpanInlineSpanX on List<InlineSpan> {
   /// see [TextSpan]
   TextSpan span({
     Key? key,

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension WidgetPaddingX on Widget {
+extension RettulfPaddingX on Widget {
   /// see [Padding]
   Padding pad(
     EdgeInsetsGeometry padding, {

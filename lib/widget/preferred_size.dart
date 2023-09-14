@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension PreferredSizeWidget on Widget {
+extension RettulfPreferredSizeX on Widget {
   /// see [PreferredSize]
   PreferredSize preferredSize(
     Size size, {

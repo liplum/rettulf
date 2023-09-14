@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension SafeAreaWidgetX on Widget {
+extension RettulfSafeAreaX on Widget {
   /// see [SafeArea]
   SafeArea safeArea({
     Key? key,

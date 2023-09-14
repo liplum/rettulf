@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-extension WrapWidgetX on List<Widget> {
+extension RettulfWrapX on List<Widget> {
   /// see [Wrap]
   Wrap wrap({
     Key? key,

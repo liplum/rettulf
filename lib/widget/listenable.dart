@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
-extension ValueListenableEx<T> on ValueListenable<T> {
+extension RettulfValueListenableX<T> on ValueListenable<T> {
   /// see [ValueListenableBuilder]
   ValueListenableBuilder<T> operator >>(
     Widget Function(BuildContext context, T value) builder,
@@ -12,7 +12,7 @@ extension ValueListenableEx<T> on ValueListenable<T> {
       );
 }
 
-extension ListenableX on Listenable {
+extension RettulfListenableX on Listenable {
   /// see [AnimatedBuilder]
   AnimatedBuilder operator >>(
     WidgetBuilder builder,

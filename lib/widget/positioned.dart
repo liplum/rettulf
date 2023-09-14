@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension PositionedWidgetX on Widget {
+extension RettulfPositionedX on Widget {
   /// see [Positioned]
   Positioned positioned({
     Key? key,

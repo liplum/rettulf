@@ -2,7 +2,7 @@ import 'dart:ui' as ui show TextHeightBehavior;
 
 import 'package:flutter/material.dart';
 
-extension StringX on String {
+extension RettulfStringX on String {
   /// see [Text]
   Text text({
     Key? key,

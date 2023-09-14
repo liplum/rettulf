@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension LayoutBoxWidgetX on Widget {
+extension RettulfLayoutBoxX on Widget {
   /// see [FittedBox]
   FittedBox fitted({
     Key? key,

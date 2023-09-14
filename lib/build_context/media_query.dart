@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension BuildContextMediaQueryX on BuildContext {
+extension RettulfBuildContextMediaQueryX on BuildContext {
   /// see [MediaQuery.data]
   MediaQueryData get mediaQuery => MediaQuery.of(this);
 

@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension AlignWidgetX on Widget {
+extension RettulfAlignX on Widget {
   /// see [Align]
   Align align({
     Key? key,

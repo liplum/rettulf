@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 
-extension WidgetGestureDetectorX on Widget {
+extension RettulfGestureDetectorX on Widget {
   /// see [GestureDetector]
   GestureDetector gestureDetect({
     Key? key,

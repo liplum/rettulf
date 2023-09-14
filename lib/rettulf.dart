@@ -10,7 +10,6 @@ export 'widget/boxes.dart';
 export 'widget/center.dart';
 export 'widget/container.dart';
 export 'widget/clip_r_rect.dart';
-export 'widget/flex.dart';
 export 'widget/flexible.dart';
 export 'widget/gesture.dart';
 export 'widget/hero.dart';
@@ -31,6 +30,5 @@ export 'widget_list/listview.dart';
 export 'widget_list/stack.dart';
 export 'widget_list/wrap.dart';
 
-export 'alias.dart';
 export 'primitive/icon.dart';
 export 'primitive/string.dart';

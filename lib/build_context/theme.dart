@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-extension BuildContextThemeX on BuildContext {
+extension RettulfBuildContextThemeX on BuildContext {
   /// see [Theme.data]
   ThemeData get theme => Theme.of(this);
 
