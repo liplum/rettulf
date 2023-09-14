@@ -1,3 +1,6 @@
+# 2.0.1
+* Fixed: `BuildContext.navigator` was accidentally removed.
+
 # 2.0.0
 * **[BREAKING CHANGE]** Removed alias `MAAlign`, `MASize`, and `CAAlign`.
 * **[BREAKING CHANGE]** Renamed all extensions to be prefixed with `Rettulf`.

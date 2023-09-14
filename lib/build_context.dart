@@ -21,6 +21,9 @@ extension RettulfBuildContextMediaQueryX on BuildContext {
 
   /// see [FocusScopeNode.of]
   FocusScopeNode get focusScope => FocusScope.of(this);
+
+  /// see [NavigatorState.of]
+  NavigatorState get navigator => Navigator.of(this);
 }
 
 extension RettulfBuildContextThemeX on BuildContext {
