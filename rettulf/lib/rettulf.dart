@@ -30,3 +30,5 @@ export 'widget_list/wrap.dart';
 
 export 'primitive/icon.dart';
 export 'primitive/string.dart';
+
+export 'sliver/adapter.dart';
