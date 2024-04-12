@@ -13,6 +13,12 @@ extension RettulfStringX on String {
     Locale? locale,
     bool? softWrap,
     TextOverflow? overflow,
+    @Deprecated(
+      'Use textScaler instead. '
+      'Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. '
+      'This feature was deprecated after v3.12.0-2.0.pre.',
+    )
+    double? textScaleFactor,
     TextScaler? textScaler,
     int? maxLines,
     String? semanticsLabel,
@@ -31,6 +37,7 @@ extension RettulfStringX on String {
         softWrap: softWrap,
         overflow: overflow,
         textScaler: textScaler,
+        textScaleFactor: textScaleFactor,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
         textWidthBasis: textWidthBasis,
