@@ -1,3 +1,6 @@
+# 2.1.1
+* Added `BuildContext.brightness`.
+
 # 2.0.1
 * Fixed: `BuildContext.navigator` was accidentally removed.
 

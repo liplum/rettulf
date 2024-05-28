@@ -36,6 +36,9 @@ extension RettulfBuildContextThemeX on BuildContext {
   /// see [ThemeData.colorScheme]
   ColorScheme get colorScheme => Theme.of(this).colorScheme;
 
+  /// see [ThemeData.colorScheme]
+  Brightness get brightness => Theme.of(this).brightness;
+
   /// see [ThemeData.brightness]
   bool get isDarkMode => Theme.of(this).brightness == Brightness.dark;
 
