@@ -1,5 +1,7 @@
 # 2.1.1
 * Added `BuildContext.brightness`.
+* Added `inFilledCard`, `inOutlinedCard`.
+* Added `sliver` and `sliverList`.
 
 # 2.0.1
 * Fixed: `BuildContext.navigator` was accidentally removed.

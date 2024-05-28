@@ -25,6 +25,7 @@ export 'widget/text_span.dart';
 
 export 'widget_list/flex.dart';
 export 'widget_list/listview.dart';
+export 'widget_list/sliver.dart';
 export 'widget_list/stack.dart';
 export 'widget_list/wrap.dart';
 

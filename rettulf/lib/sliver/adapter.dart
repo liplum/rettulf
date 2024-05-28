@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 extension RettulfWidgetSliverX on Widget {
-  SliverToBoxAdapter toSliver({
+  SliverToBoxAdapter sliver({
     Key? key,
   }) =>
       SliverToBoxAdapter(
