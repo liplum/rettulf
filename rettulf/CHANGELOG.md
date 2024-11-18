@@ -1,3 +1,6 @@
+# 2.2.0
+* Allowed args of `sizedAll` and `sizedIn` to be null.
+
 # 2.1.1
 * Added `BuildContext.brightness`.
 * Added `inFilledCard`, `inOutlinedCard`.

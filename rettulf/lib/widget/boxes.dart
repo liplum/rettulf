@@ -156,19 +156,18 @@ extension RettulfLayoutBoxX on Widget {
 
   /// see [SizedBox]
   SizedBox sizedIn(
-    Size size, {
+    Size? size, {
     Key? key,
   }) =>
-      SizedBox(
+      SizedBox.fromSize(
         key: key,
-        width: size.width,
-        height: size.height,
+        size: size,
         child: this,
       );
 
   /// see [SizedBox]
   SizedBox sizedAll(
-    double length, {
+    double? length, {
     Key? key,
   }) =>
       SizedBox(
