@@ -9,9 +9,9 @@ extension RettulfSliverListX on List<Widget> {
   }) =>
       SliverList.list(
         key: key,
-        children: this,
         addAutomaticKeepAlives: addAutomaticKeepAlives,
         addRepaintBoundaries: addRepaintBoundaries,
         addSemanticIndexes: addSemanticIndexes,
+        children: this,
       );
 }

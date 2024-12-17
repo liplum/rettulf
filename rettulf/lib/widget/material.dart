@@ -94,7 +94,7 @@ extension RettulfMaterialX on Widget {
     Color? focusColor,
     Color? hoverColor,
     Color? highlightColor,
-    MaterialStateProperty<Color?>? overlayColor,
+    WidgetStateProperty<Color?>? overlayColor,
     Color? splashColor,
     InteractiveInkFeatureFactory? splashFactory,
     double? radius,
@@ -106,7 +106,7 @@ extension RettulfMaterialX on Widget {
     bool canRequestFocus = true,
     ValueChanged<bool>? onFocusChange,
     bool autofocus = false,
-    MaterialStatesController? statesController,
+    WidgetStatesController? statesController,
   }) =>
       InkWell(
         key: key,

@@ -10,6 +10,7 @@ extension RettulfFlexX on List<Widget> {
     TextDirection? textDirection,
     VerticalDirection vd = VerticalDirection.down,
     TextBaseline? textBaseline,
+    double spacing = 0.0,
   }) =>
       Row(
         key: key,
@@ -19,6 +20,7 @@ extension RettulfFlexX on List<Widget> {
         textDirection: textDirection,
         verticalDirection: vd,
         textBaseline: textBaseline,
+        spacing: spacing,
         children: this,
       );
 
@@ -31,7 +33,8 @@ extension RettulfFlexX on List<Widget> {
     TextDirection? textDirection,
     VerticalDirection vd = VerticalDirection.down,
     TextBaseline? textBaseline,
-  }) =>
+    double spacing = 0.0,
+ }) =>
       Column(
         key: key,
         mainAxisAlignment: maa = maa,
@@ -40,6 +43,7 @@ extension RettulfFlexX on List<Widget> {
         textDirection: textDirection,
         verticalDirection: vd,
         textBaseline: textBaseline,
+        spacing: spacing,
         children: this,
       );
 
@@ -54,6 +58,7 @@ extension RettulfFlexX on List<Widget> {
     VerticalDirection vd = VerticalDirection.down,
     TextBaseline? textBaseline,
     Clip clip = Clip.none,
+    double spacing = 0.0,
   }) =>
       Flex(
         key: key,
@@ -65,6 +70,7 @@ extension RettulfFlexX on List<Widget> {
         verticalDirection: vd,
         textBaseline: textBaseline,
         clipBehavior: clip,
+        spacing: spacing,
         children: this,
       );
 }

@@ -1,3 +1,7 @@
+# 2.3.0
+* Bump the minimum Flutter to 3.27.0
+* Row, Column, and Flex support `spacing` now.
+
 # 2.2.0
 * Allowed args of `sizedAll` and `sizedIn` to be null.
 

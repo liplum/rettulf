@@ -10,12 +10,13 @@ extension RettulfHeroX on Widget {
     bool transitionOnUserGestures = false,
   }) =>
       Hero(
-          tag: tag,
-          createRectTween: createRectTween,
-          flightShuttleBuilder: flightShuttleBuilder,
-          placeholderBuilder: placeholderBuilder,
-          transitionOnUserGestures: transitionOnUserGestures,
-          child: this);
+        tag: tag,
+        createRectTween: createRectTween,
+        flightShuttleBuilder: flightShuttleBuilder,
+        placeholderBuilder: placeholderBuilder,
+        transitionOnUserGestures: transitionOnUserGestures,
+        child: this,
+      );
 
   /// If [tag] is null, this will be returned.
   ///
@@ -35,5 +36,6 @@ extension RettulfHeroX on Widget {
               flightShuttleBuilder: flightShuttleBuilder,
               placeholderBuilder: placeholderBuilder,
               transitionOnUserGestures: transitionOnUserGestures,
-              child: this);
+              child: this,
+            );
 }
